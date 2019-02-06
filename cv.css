@@ -1,0 +1,62 @@
+.page {
+	font-size : 20px;
+/*
+background-color : red;
+*/
+	margin-top: 2%;
+}
+.grand_titre{
+	text-align : center;
+}
+.photoprofil {
+	max-width : 100%;
+	max-height : 100%;
+	border-radius: 20%;
+}
+.div_photo {
+	max-width:100%;
+	max-height:100%;
+}
+
+.gauche {
+	float:left;
+	width:31%;
+	margin-right : 2%;
+	margin-left : 2%;
+	
+}
+
+.droite {
+	float:right; 
+	width:60%;
+	margin-left : 5%;
+}
+
+.#table_g p{
+	width : 30%;
+	text-align : top;
+	font-weight : bold;
+}
+
+.table_d {
+	width : 70%;
+
+}
+.items_gauche {
+	background-color : blue;
+	text-align : center;
+	font-size : 30px;
+}
+.mdl-slider mdl-js-slider{
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
+
+.progress_bar{
+position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0;
+    
+}
